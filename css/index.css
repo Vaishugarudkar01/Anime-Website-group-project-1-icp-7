@@ -5,6 +5,21 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    border-bottom: 2px solid rgb(164, 164, 164);
+}
+.nav1{
+    height: 60px;
+    width: 100%;
+    background-color: #393E46;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: #00ADB5;
 }
 .menu{
     height: 70%;
@@ -13,7 +28,7 @@
 }
 .body{
     background-color:black;
-    height: 1000px;
+    height: 100%;
     width: 100%;
 }
 .login{
@@ -35,4 +50,35 @@ input.search {
     height: 40px;
     justify-items: center;
     margin-right: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 30px;
+    border: transparent;
+    background: transparent;
+}
+.txt{
+    text-decoration: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #00ADB5;
+    padding: 20px;
+    border-radius: 15px;
+}
+.txt:hover{
+    color: #ced4da;
+    background-color: #495057;
+}
+.gfg {
+    margin: 3%;
+    position: relative;
+    height: 50%;
+}
+.text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 18rem;
+    top: 2rem;
+    background-color: rgb(41, 41, 41, 0.8);
+    padding: 0 1rem;
 }
