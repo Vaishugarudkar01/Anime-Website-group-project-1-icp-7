@@ -1,0 +1,35 @@
+
+body{
+    background-color: #000000;
+}
+
+.social1{
+ margin-left: 550%;
+ height:40px;
+}
+.main-container{
+    width: 100%;
+    margin: 0px;
+  padding: 0px;
+  /* background-color: #000000; */
+  height: 500px;
+  /* display: flex; */
+}
+.sub-container{
+    height: 500px;
+    width: 100%;
+ margin-top: 0px;
+}
+.heading{
+ 
+ color: goldenrod;
+ text-align: center;
+
+
+
+}
+.main-container p{
+    color: #ffffff;
+    text-align:center;
+    font-size: 25px;
+}
