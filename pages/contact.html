@@ -2,22 +2,46 @@
 <html>
 <head>
     <title>Contact page</title>
-    <style>
-        .product-card{
-            background-color: aqua;
-            height: 500px;
-            width: 500px;
-            border:5px solid #1f1f1f
-            
-        }
-    </style>
+    <link rel="stylesheet" href="/css/contact.css">
 </head>
-
 <body>
-    <div class="product card">
-    <h1 class="product-title">Contact Us</h1>
-    </div>
+    <div class="body">
+        <!-- navbar -->
+        <div class="nav">
+            <img src="/icons/square.png" class="menu">
+            <img src="/icons/new logo.png" class="logo">
+            <input class="search" type="search" placeholder="Search...">
+            <img src="/icons/telegram.png" class="social">
+            <img src="/icons/twitter.png" class="social">
+            <img src="/icons/reddit.png" class="social">
+            <img src="/icons/discord.png" class="social">
+            <img src="/icons/bell.png" class="social">
+             <a href="/pages/signup.html" > <img src="/icons/login.png" class="login"></a>
+        </div>
+        <div class="nav1">
+            <button class="btn"><a href="/pages/categories.html"class="txt"> Categories</a> </button>
+            <button class="btn"><a href="/pages/blog.html" class="txt"> blog</a> </button>
+            <button class="btn"><a href="/pages/contact.html"class="txt">contact</a> </button>
+            <button class="btn"><a href="/pages/about.html"class="txt">about</a> </button>
+        </div>
 
+        <!-- contact -->
+        <section id="contact">
+            <div class="contact-container container">
+                <div class="contact-img">
+                    <img src="/images/demon.png" alt="" />
+                </div>
+    
+                <div class="form-container">
+                    <h2>Contact Us</h2>
+                    <input type="text" placeholder="Your Name" />
+                    <input type="email" placeholder="E-Mail" />
+                    <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                    <button class="btn-submit">SUBMIT</button>
+                </div>
+            </div>
+        </section>
+    </div>
     
 </body>
 
