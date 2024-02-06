@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .nav{
     height: 80px;
     width: 100%;
@@ -62,10 +69,12 @@ input.search {
     font-weight: 500;
     font-family: sans-serif;
     color: #00ADB5;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .txt:hover{
-    color: #ced4da;
+    /* color: #ced4da; */
     background-color: #495057;
 }

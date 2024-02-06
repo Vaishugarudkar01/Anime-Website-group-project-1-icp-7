@@ -1,3 +1,5 @@
+
+
 .body{
     background-color:black;
     height: 100%;
@@ -44,7 +46,8 @@
   .watchnow{
     padding: 7px 7px;
     border-radius: 20px;
-    background-color: #FFBB64;
+    /* background-color: #FFBB64; */
+    background-color: #00ADB5;
     border: 20px;
     border-color: white;
     display: flexbox;
@@ -53,11 +56,11 @@
 
   }
   .main:hover{
-    width: 52%;
+    /* width: 52%; */
     margin: 10px;
     border-radius: 10px;
     left: 1000px;
-    transition: 1s;
+    transition: 10ms;
     box-shadow: 18px 18px 100px grey;
   }
   .trending{

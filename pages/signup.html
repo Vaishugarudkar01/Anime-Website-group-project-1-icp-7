@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
-    <title>login-page</title>
-    <link rel="stylesheet" href="./../css/signup.css"/>
-    <style>
-        body {
-      background-image: url('./../images/login-bg.png'); 
-      background-size:cover; 
-      background-repeat: no-repeat; 
-      
-    }
-    </style>
+  
+    <title>login</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<form>
-
-<div class="box">
-      
-        <div class="container">
-
-          <input type="text" placeholder="Enter Username" name="uname" required><br>
-        </div>
-
-
-
-        <div class="container">
-     
-          <input type="password" placeholder="Enter Password" name="psw" required><br>
-        </div>
-
-
-
-    
-          <button type="submit" class="btn">Login</button>
+<body>
+    <form>
+    <div class="nav">
+        <img src="../../icons/square.png" class="menu">
+        <img src="../../icons/new logo.png" class="logo">
+        <input class="search" type="search" placeholder="Search...">
+        <img src="../../icons/telegram.png" class="social">
+        <img src="../../icons/twitter.png" class="social">
+        <img src="../../icons/reddit.png" class="social">
+        <img src="../../icons/discord.png" class="social">
+        <img src="../../icons/bell.png" class="social">
+         <a href="../pages/signup.html" > <img src="../../icons/login.png" class="social"></a>
         
+    </div>
+        <div class="nav1">
+             <button class="btn"><a href="categories.html"class="txt"> Categories</a> </button>
+             <button class="btn"><a href="blog.html" class="txt"> blog</a> </button>
+             <button class="btn"><a href="contact.html"class="txt">contact</a> </button>
+             <button class="btn"><a href="about.html"class="txt">about</a> </button>
+        </div>
+<div class="main-container">
 
 
-      <div class="reg">
-          <span class="psw">Not a member? <a href="#"><span class="signup-btn"> Sign up now</span> </a></span>
+        <div class="background-img">
+
+        <div class="container">
+            
+            <div class="box">
+              <input type="text" placeholder="Enter Username" name="uname" required><br>
+            </div>
+    
+    
+            <div class="box">
+              <input type="password" placeholder="Enter Password" name="psw" required><br>
+            </div>
+
+
+              <button type="submit" class="login-btn">Login</button>
+    
+            <div class="reg">
+              <span class="psw">Not a member? <a href="#"><span class="signup-btn"> Sign up now</span> </a></span>
+            </div>
+
+
         </div>
     </div>
+</div>
 </form>
 </body>
 </html>
