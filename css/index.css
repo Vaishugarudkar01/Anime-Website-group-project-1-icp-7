@@ -57,7 +57,7 @@
     margin: 10px;
     border-radius: 10px;
     left: 1000px;
-    transition: 10ms;
+    transition: 1s;
     box-shadow: 18px 18px 100px grey;
   }
   .trending{
@@ -89,3 +89,27 @@
   .car:hover{
     box-shadow: 0 18px 18px grey;
   }
+  .small{
+    height: 100px;
+    padding-left: 15px;
+  }
+  .item{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+  }
+  .name{
+    padding: 1px 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .cc{
+    height :15px;
+    width: 50px;
+    background-color: greenyellow;
+    display: flex; 
+
+  }
+
+  
