@@ -34,7 +34,11 @@
     left: 10px;
 }
 .body{
+<<<<<<< HEAD
     background-color:#070720
+=======
+    background-color:black;
+>>>>>>> 3d3aef98f54bb98de41ad5be4b41773a63807b68
     height: 100%;
     width: 100%;
 }
