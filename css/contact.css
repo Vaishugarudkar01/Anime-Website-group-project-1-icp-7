@@ -146,4 +146,16 @@ input.search {
      height: 30px;
      border-radius: 10px;
      margin-top: 15px;
+     cursor: pointer;
+     box-shadow: inset white;
+  }
+
+  .btn-submit:hover{
+    background-color:#393E46 ;
+     color: #fff;
+     width:90px;
+     height: 35px;
+     border-radius: 10px;
+     margin-top: 15px;
+     cursor: pointer;
   }
