@@ -1,7 +1,7 @@
 
 
 .body{
-    background-color:black;
+    background-color:#070720;
     height: 100%;
     width: 100%;
 }
@@ -9,12 +9,30 @@
     position: relative;
     text-align: right;
     color: white;
+    background-image: url('../images/new2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
 }
   .main{
-    width: 50%;
-    margin: 10px;
+    width: 60%;
+    margin: 100px 0px 0px 0px;
     border-radius: 10px;
     left: 1000px;
+    transform: scale(0.7);
+   
+    
+  }
+  .main:hover{
+    /* width: 52%; */
+    width: 60%;
+    margin: 100px 0px 0px 0px;
+    border-radius: 10px;
+    left: 100px;
+    border-radius: 10px;
+    transform: scale(0.8);
+    transition: 75ms;
+    box-shadow: 0px 50px 100px grey;
   }
   .bottom-left {
     position: absolute;
@@ -44,7 +62,7 @@
     display: flex;
   }
   .watchnow{
-    padding: 7px 7px;
+    padding: 7px 50px;
     border-radius: 20px;
     /* background-color: #FFBB64; */
     background-color: #00ADB5;
@@ -52,17 +70,13 @@
     border-color: white;
     display: flexbox;
     align-items: left;
-    margin: 10px;
+    margin: 70px;
 
   }
-  .main:hover{
-    /* width: 52%; */
-    margin: 10px;
-    border-radius: 10px;
-    left: 1000px;
-    /* transition: 10ms; */
-    box-shadow: 18px 18px 100px grey;
+  .watchnow:hover{
+    background-color: lightskyblue;
   }
+
   .trending{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -86,9 +100,131 @@
     font-size: x-large;
     font-family: 'Roboto', sans-serif;
     color: white;
+    padding-top: 15px;
 
 
   }
   .car:hover{
     box-shadow: 0 18px 18px grey;
+   
+  }
+  .photo:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 5%;
+  }
+  .item{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+  }
+  .name{
+    padding: 1px 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  .block{
+    display: block;
+  }
+  .heading1{
+    font-size: x-large;
+    color: goldenrod;
+    margin: 25px 0px 25px 25px ;
+  }
+  .box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+  }
+  .block{
+    height: 650px;
+    width: 300px;
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 25px 10px 10px;
+    padding-bottom: 15px;
+   
+  }
+  .photo1{
+    height: 100px;
+    width: 70px;
+    margin-left: 25px;
+  }
+  .tst:hover{
+    color: goldenrod;
+  }
+  .text{
+    justify-content:center;
+    
+  
+  }
+  .tst{
+    color: #b7b7b7;
+    margin: 10px 10px 15px 25px;
+
+  }
+  .context{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+  }
+  .green{
+    background-color: #66ffc2;
+    height: 18px;
+    width: 50px;
+    display: flex;
+    justify-content:center;
+    border-radius: 5px;
+    margin-left: 25px;
+    font-size: small;
+    font-weight: 700; 
+    border-radius: 10px 0px 0px 10px; 
+    justify-content: space-evenly
+
+  }
+  .cc{
+    height: 15px;
+  }
+  .pink{
+    background-color: #ffb3ff;
+    
+    height: 18px;
+    width: 50px;
+    display: flex;
+    flex-direction: rw;
+    justify-content:center;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: small;
+    font-weight: 700;
+    border-radius: 0px 10px 10px 0px; 
+    justify-content: space-evenly
+  
+
+  }
+  .mic{
+    height: 15px;
+  }
+  .tv{
+    color: grey;
+    margin-left: 5px;
+  }
+  .main-logo{
+    height: 100px;
+    padding: 50px 50px;
+    margin: 10px;
+  }
+  .footer-detail{
+    height:100px
+  }
+  .social-icon{
+    display: flex;
+    box-direction: botto;
   }

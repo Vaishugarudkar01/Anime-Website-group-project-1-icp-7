@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime Website</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/anime-details.css">
     <link rel="icon" href="./icons/new logo.png" type="image/x-icon">
 </head>
 
 <body>
     <div class="body">
+        <!--
         <div class="nav">
             <img src="./icons/square.png" class="menu">
             <img src="./icons/new logo.png" class="logo">
@@ -29,7 +32,38 @@
             <button class="btn"><a href="./pages/blog.html" class="txt"> blog</a> </button>
             <button class="btn"><a href="./pages/contact.html" class="txt">contact</a> </button>
             <button class="btn"><a href="./pages/about.html" class="txt">about</a> </button>
-        </div>
+        </div> -->
+        <section class="navigation-bar">
+            <div class="navbar">
+                <div class="nav-logo">
+                    <a href="index.html"><img src="\images\nav-logo.webp" alt=""></a>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <!-- <li><a href="">Produts</a></li> -->
+                        <div class="dropdown">
+                            <button class="dropbtn">categories</button>
+                            <div class="dropdown-content">
+                                <a href="">Anime Details</a>
+                                <a href="">Login</a>
+                                <a href="">Signup</a>
+                                
+                            </div>
+                        </div>
+                        
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-user">
+                    
+                    <i class="fa-solid fa-heart"></i>
+                    <a href="registration.html"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+        </section>
         <div class="container">
             <img src="./images/wp8972048-one-piece-computer-wallpapers.jpg" alt="one-piece" class="main">
             <div class="bottom-left">
@@ -48,31 +82,429 @@
         <p class="t1">TRENDING</p>
         <div class="trending">
             <div class="car">
-                <img src="./images/one-piece.jpg" alt="one-piece">
+                <img src="./images/one-piece.jpg" alt="one-piece" class="photo">
                 <p class="txt1">ONE-PIECE</p>
             </div>
             <div class="car">
-                <img src="./images/blue-lock.jpg" alt="death-note">
+                <img src="./images/blue-lock.jpg" alt="death-note" class="photo">
                 <p class="txt1">DEATH-NOTE</p>
             </div>
             <div class="car">
-                <img src="./images/demon.png" alt="demon slayer">
+                <img src="./images/demon.png" alt="demon slayer" class="photo">
                 <p class="txt1">DEMON SLAYER</p>
             </div>
             <div class="car">
-                <img src="./images/jjk.jpg" alt="jjk">
+                <img src="./images/jjk.jpg" alt="jjk" class="photo">
                 <p class="txt1">JUJUSTU KAISEN</p>
             </div>
             <div class="car">
-                <img src="./images/naruto.jpg" alt="naruto">
+                <img src="./images/naruto.jpg" alt="naruto" class="photo">
                 <p class="txt1">NARUTO</p>
             </div>
 
+    </div>
+    <!--top airing-->
+    <div class="box">
+        
+        <div class="block">
+            <p class="heading1">Top Airing</p>
+            <div class="content">
+                <img src="./images/s1.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">One piece</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">1092</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">1048</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <img src="./images/s5.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Case Closed</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">1113</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">123</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/s2.png" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Solo Leveling</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">5</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">3</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/s3.png" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Attack on Titan:The final season Part 3</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">2</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">2</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/s4.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">rangna Crimson</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">16</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">7</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
-
+        <!--most popular-->
+        <div class="block">
+            <p class="heading1">Most Popular</p>
+            <div class="content">
+                <img src="./images/s1.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">One piece</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">1092</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">1048</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <img src="./images/p1.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Naruto: Shippuden</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">500</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">500</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/p2.png" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Jujustu kaisen 2nd Season</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">23</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">23</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/p3.png" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Demon Slayer: Kimetsu no Yaiba </p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">11</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">11</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/p4.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Black Clover</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">170</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">170</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--most popular-->
+        <div class="block">
+            <p class="heading1">Most favorite</p>
+            <div class="content">
+                <img src="./images/s1.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">One piece</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">1092</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">1048</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <img src="./images/f1.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Chainsaw Man</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">12</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">12</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/f2.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Jujustu Kaisen(TV)</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">24</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">24</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/f3.png" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Demon Slayer: Kimetsu no Yaiba</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">11</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">11</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/f4.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Attack on titan</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">25</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">25</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--latest completed-->
+        <div class="block">
+            <p class="heading1">latest Completed</p>
+            <div class="content">
+                <img src="./images/c1.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst"> From Me To You Season 2 – A Crush</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">1</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">1</p>
+                        </div>
+                        <ul class="tv"> -Special</ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <img src="./images/c2.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Kimi ni Todoke: From Me To You 2</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">12</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">12</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/c3.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Kimi ni Todoke: From Me to You</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">25</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">25</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/c4.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">The Demon Sword Master of Excalibur Academy</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">12</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">5</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div> <div class="content">
+                <img src="./images/s1.jpg" alt="one piece" class="photo1">
+                <div class="text">
+                    <p class="tst">Butareba -The Story of a Man Who Turned into a Pig-</p>
+                    <div class="context">
+                        <div class="green">
+                            <img src="./icons/cc.png" class="cc">
+                            <p class="sub">12</p>
+                        </div>
+                        <div class="pink">
+                            <img src="./icons/mic.png" class="mic">
+                            <p class="dub">12</p>
+                        </div>
+                        <ul class="tv"> -TV</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <!--footer-->
+    <section class="footer">
+        <div class="footer-main">
+            <div class="footer-logo">
+                <div class="main-logo">
+                    <img src="./images/nav-logo.webp" alt="logo">
+                    
+                </div>
+                <p class="footer-detail"><P>WE!!! Try our Very Best of The Best to Provide &nbsp;&nbsp; You With The Best Entertaining Content As We&nbsp;&nbsp; Can And We Will Continue To Do So.</P>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-
+                </p>
+            </div>
+            <div class="quick-links">
+                <p class="links">Quick Links</p>
+                <div class="border-left"></div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Categories</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <p class="links">Services</p>
+                <div class="border-left"></div>
+                <ul>
+                    <li> Tv serials</li>
+                    <li>
+                        Shows</li>
+                    <li>Movies</li>
+                    <li> Web Series</li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <p class="links">Contact Us</p>
+                    
+                    <div class="social-icons">
+                        <i class="fa-brands fa-instagram"><img src="./icons/instagram.png" class="social"></i>
+                        <i class="fa-brands fa-discord"><img src="./icons/discord.png" class="social"></i>
+                        <i class="fa-brands fa-x"><img src="./icons/twitter.png" class="social"></i>
+                    </div>
+                </div>
+            </div>
+        
+        <p class="made">Made With Love <span><i class="fa-solid fa-heart"></i></span>
+            By Passionate Team
+        </p>
+        <p class="copyright">Copyright © Anime 2024</p>
+    </div>
+    </section>
+      
+      
+        
+        
 
 
     </div>

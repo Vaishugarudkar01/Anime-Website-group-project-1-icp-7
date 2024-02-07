@@ -8,7 +8,7 @@
 .nav{
     height: 80px;
     width: 100%;
-    background-color: #393E46;
+    background-color: #070720;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -17,7 +17,7 @@
 .nav1{
     height: 60px;
     width: 100%;
-    background-color: #393E46;
+    background-color: #070720;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -34,18 +34,15 @@
     left: 10px;
 }
 .body{
-<<<<<<< HEAD
-    background-color:#070720
-=======
-    background-color:black;
->>>>>>> 3d3aef98f54bb98de41ad5be4b41773a63807b68
+    background-color:#070720;
     height: 100%;
     width: 100%;
 }
 .login{
     height: 50px;
-    position: relative;
-    left: 500px;
+    display: flex;
+    justify-content: right;
+    left: 400px;
 }
 input.search {
     width: 260px;
