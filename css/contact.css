@@ -1,134 +1,64 @@
-/* background color:#070720;
-button color:#e53637;
-paragragh text color:#b7b7b7;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-
-
-*{
-  margin: 0;
+body {
+  font-family: Arial, sans-serif;
+  margin-top: 70px;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:#070720;
 }
 
-.navigation-bar {
-  position: fixed;
-  top: 0;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.map,
+.contact-us,
+.leave-a-reply {
+  flex: 1;
+  margin: 10px;
+}
+
+.map iframe {
   width: 100%;
-  background-color: #070720;
-  color: #fff;
-  z-index: 1000; 
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #b7b7b7;
+  height: 400px;
 }
 
-.navbar {
-margin: 5px 70px;
-display: flex;
-justify-content: space-between;
-color: rgb(104, 103, 103);
+.contact-us,
+.leave-a-reply {
+  background-color: #f9f9f9;
+  padding: 20px;
 }
 
-.nav-logo img {
-height: 30px;
-  margin-top: 15px;
+.leave-a-reply form {
+  margin-top: 10px;
 }
 
-.nav-links ul {
-display: flex;
-margin: 20px 0;
+.leave-a-reply input[type="text"],
+.leave-a-reply input[type="email"],
+.leave-a-reply textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
 }
 
-.nav-links ul li a{
-margin: 0 25px;
-font-weight: 600;
-font-size: 20px;
-  color: #fff;
+.leave-a-reply button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
-.nav-links ul li a:hover {
-color: #e53637;
-  transition: 0.5s;
-
-}
-
-.nav-user i {
-margin: 20px 15px;
-font-size: 20px;
-  color: #fff;
-}
-
-.nav-user i:hover {
-color:#e53637;
-  transition: 0.5s;
-}
-
-ul li {
-list-style: none;
-}
-
-a {
-text-decoration: none;
-color: #686767;
-}
-
-/* Dropdown Button */
-.dropbtn {
-
-color: rgb(104, 103, 103);
-font-size: 20px;
-margin: 0 10px;
-  color: #fff;
-border: none;
-font-weight: 600;
-  background-color: #070720;
+.leave-a-reply button:hover {
+  background-color: #45a049;
 }
 
 
-.dropdown {
-position: relative;
-display: inline-block;
-}
-
-.dropdown-content {
-display: none;
-position: absolute;
-background-color: #fafafa;
-transition: 0.5s;
-min-width: 180px;
-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-z-index: 1;
-}
-
-.dropdown-content a {
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-}
-
-.dropdown:hover .dropdown-content {
-display: block;
-transition: 0.5s;
-}
-
-/* --------------navigation code ends here----------- */
-
-@media only screen and (max-width: 768px) {
-  .navbar {
-      margin: 5px 20px; /* Adjust margin for smaller screens */
-  }
-  
-  .nav-links ul {
-      margin: 10px 0; /* Adjust margin for smaller screens */
-      flex-direction: column; /* Stack items vertically */
-  }
-  
-  .nav-links ul li a {
-      margin: 10px 0; /* Adjust margin for smaller screens */
-  }
-  
-  .nav-user i {
-      margin: 10px 0; /* Adjust margin for smaller screens */
-  }
-}
