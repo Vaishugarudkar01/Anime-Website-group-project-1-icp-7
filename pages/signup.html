@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  
-    <title>login</title>
-    <link rel="stylesheet" href="../css/signup.css">
-    <link rel="stylesheet" href="../css/style.css">
+
+  <title>login</title>
+  <link rel="stylesheet" href="../css/signup.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- ------------ fontawesome --------------  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <form>
-    <div class="nav">
-        <img src="../../icons/square.png" class="menu">
-        <img src="../../icons/new logo.png" class="logo">
-        <input class="search" type="search" placeholder="Search...">
-        <img src="../../icons/telegram.png" class="social">
-        <img src="../../icons/twitter.png" class="social">
-        <img src="../../icons/reddit.png" class="social">
-        <img src="../../icons/discord.png" class="social">
-        <img src="../../icons/bell.png" class="social">
-         <a href="../pages/signup.html" > <img src="../../icons/login.png" class="social"></a>
-        
-    </div>
-        <div class="nav1">
-             <button class="btn"><a href="categories.html"class="txt"> Categories</a> </button>
-             <button class="btn"><a href="blog.html" class="txt"> blog</a> </button>
-             <button class="btn"><a href="contact.html"class="txt">contact</a> </button>
-             <button class="btn"><a href="about.html"class="txt">about</a> </button>
+  <form>
+    <!-- ----------navigation bar--------- -->
+    <section class="navigation-bar">
+      <div class="navbar">
+        <div class="nav-logo">
+          <a href="/index.html"><img src="\images\nav-logo.webp" alt=""></a>
         </div>
-<div class="main-container">
+        <div class="nav-links">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/about.html">About</a></li>
+            <!-- <li><a href="">Produts</a></li> -->
+            <div class="dropdown">
+              <button class="dropbtn">Categories</button>
+              <div class="dropdown-content">
+                <a href="/pages/categories.html">Categories</a>
+                <a href="/pages/anime-details.html">Anime Details</a>
+                <a href="">Login</a>
+                <a href="/pages/signup.html">Signup</a>
+
+              </div>
+            </div>
+
+            <li><a href="/pages/blog.html">Blog</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-user">
+
+          <i class="fa-solid fa-heart"></i>
+          <a href="/pages/signup.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="main-container">
 
 
-        <div class="background-img">
+      <div class="background-img">
 
         <div class="container">
-            
-            <div class="box">
-              <input type="text" placeholder="Enter Username" name="uname" required><br>
-            </div>
-    
-    
-            <div class="box">
-              <input type="password" placeholder="Enter Password" name="psw" required><br>
-            </div>
+
+          <div class="box">
+            <input type="text" placeholder="Enter Username" name="uname" required><br>
+          </div>
 
 
-              <button type="submit" class="login-btn">Login</button>
-    
-            <div class="reg">
-              <span class="psw">Not a member? <a href="#"><span class="signup-btn"> Sign up now</span> </a></span>
-            </div>
+          <div class="box">
+            <input type="password" placeholder="Enter Password" name="psw" required><br>
+          </div>
+
+
+          <button type="submit" class="login-btn">Login</button>
+
+          <div class="reg">
+            <span class="psw">Not a member? <a href="#"><span class="signup-btn"> Sign up now</span> </a></span>
+          </div>
 
 
         </div>
+      </div>
     </div>
-</div>
-</form>
+  </form>
 </body>
+
 </html>
