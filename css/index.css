@@ -249,5 +249,9 @@
   }
   .social-icon{
     display: flex;
+   
     box-direction: botto;
+  }
+  .social-icons img{
+    height: 30px;
   }
