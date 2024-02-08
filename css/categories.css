@@ -1,7 +1,7 @@
 
 
 .body{
-    background-color:#08083b;
+    background-color:#070720;
     height: 100%;
     width: 100%;
 }
@@ -112,10 +112,10 @@
   }
 
 
-/* --------------footer code starts here----------- */
+/* -----------footer code----------- */
 .footer-main{
   border-top: 1px solid #b7b7b7;
-  padding: 15px 0;
+  padding: 35px 0;
   width: 100%;
   display: flex;
 }
@@ -124,25 +124,22 @@
   width: 24%;
 }
 .footer{
-  padding: 40px 80px 100px 80px;
+  padding: 40px 80px 5px 80px;
   background-color: #070720;
   color: #fff;
 }
 .footer-text{
   margin-top: 10px;
-  width: 265px;
+  width: 240px;
   font-size: 18px;
 }
 
 .footer-image{
   display: flex;
   align-items: center;
-  margin-top: -85px;
-  margin-bottom: -45px;
-  margin-left: 190px;
 }
 .footer-image img{
-  height: 150px;
+  height: 30px;
 }
 .logo-text{
   font-size: 25px;
@@ -173,32 +170,37 @@
   line-height: 35px;
 }
 .made{
-  margin-top: -70px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
 }
-.made {
+.made i{
   color: rgb(209, 5, 5);
 }
 .copyright{
-  color: #fafafa;
   text-align: center;
   font-size: 16px;
-  margin-top:10px;
-  margin-bottom: 10px;
+  margin: 30px 0 0 0;
 }
 .footer-icon{
   font-size: 20px;
 
 }
-.social-icons{
-  /* text-align: center; */
-}
+
 .social-icons i{
   margin: 15px 10px;
   margin-right: 20px;
   font-size: 25px;
+}
+.social-icons a{
+  color: #fff;
+}
+.map-text{
+  font-size: 20px;
+}
+.links iframe{
+  margin-top: 20px;
 }
 
 .zoom {
