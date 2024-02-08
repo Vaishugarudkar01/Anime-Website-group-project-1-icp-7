@@ -5,13 +5,13 @@ body {
 
 .sub-container {
     position: relative;
-    top: 150px;
+    top: 70px;
     left: 650px;
     right: 100px;
     width: 450px;
-    height: 460px;
+    height: 760px;
     background-color: rgba(57, 62, 70, 0.7);
-    border-radius:15px;
+    border-radius: 10px;
    
 }
 
@@ -48,7 +48,6 @@ input[type=text] {
     width: 100%;
     outline: none;
     
-    
 }
 
 
@@ -61,6 +60,15 @@ input[type=password] {
     outline: none;
 }
 
+input[type=email] {
+    border: none;
+    font-size: 20px;
+    background-color: rgba(57, 62, 70, 0);
+    margin-left: 50px;
+    outline: none;
+}
+
+
 .login-btn {
     color: #fff;
     /* background-color:#00ADB5;  */
@@ -71,8 +79,10 @@ input[type=password] {
     margin: 20px 5px;
     border: 1px solid #070720;
     margin-top: 30px;
-    margin-left: 180px;
+    margin-left: 150px;
     font-size: 20px;
+
+
 }
 
 .login-btn:hover {
@@ -85,7 +95,7 @@ input[type=password] {
 }
 
 .reg {
-    margin-left: 135px;
+    margin-left: 100px;
     margin-top: 1px;
     color: #b3b3b3;
 
