@@ -40,16 +40,17 @@ height: 600px;
  text-align: center;
  
 }
-.box{
+/* .box{
     height: 200px;
-    width: 250px;
+ 
     border: 1px solid;
     border-radius: 10px;
 
-}
+} */
 .vission{
     width: 100%;
     align-items: center;
+    justify-content: center;
     padding-top: 20px;
   
 }
@@ -59,6 +60,7 @@ height: 600px;
 }
 .box{
  height: 255px;
+ width: 250px;
  background-color: #ffffff;
  border: 2px solid goldenrod;
  border-radius: 10px;
@@ -81,3 +83,66 @@ height: 600px;
 .box:hover{
     box-shadow: 0px 0px 10px 2px goldenrod;
 }
+
+/* media queries */
+
+@media (max-width:320px){
+    .box{
+    height: 275px;
+    justify-content: center;
+    }
+}
+@media (min-width:320px){
+    .box{
+        height: 275px;
+    justify-content: center;
+          }
+}
+
+@media (max-width:606px){
+    .box{
+        width:225px;
+        /* margin-left: 150px; */
+    }
+}
+@media (max-width:555px){
+    .box{
+        width:300px;
+        margin-left: 100px;
+    }
+}
+@media (max-width:450px){
+    .box{
+        width:300px;
+        margin-left: 50px;
+    }
+}
+@media (max-width:380px){
+    .box{
+        width:275px;
+        margin-left: 30px;
+    }
+}
+@media (min-width:640px){
+    .box{
+       
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:921px){
+    .box{
+        margin-left:100px ;
+    }
+}
+@media (min-width:720px){
+    .box{
+        margin-left: 70px;
+    }
+}
+@media (min-width:769px){
+    .box{
+        margin-left: 120px;
+    }
+}
+
