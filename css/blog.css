@@ -41,15 +41,22 @@ p{
     color: white;
 }
 .left-column{
+    
     float: left;
-    width: 75%;
+    width: 60%;
+    height: 45%;
+    margin-left: 70px;
+    margin-bottom: 60px;
     
 
 }
 .right-column{
+    
     width: 25%;
     float: right;
     padding-left:20px ;
+    margin-right: 70px;
+    margin-bottom: 70px;
 }
 .card{
     padding: 20px;
