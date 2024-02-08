@@ -2,11 +2,17 @@
 <html>
 <head>
     <title>Contact page</title>
-    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/anime-details.css">
+
+    <!-- ------------ fontawesome --------------  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="body">
-        <!-- navbar -->
+    <!-- <div class="body">
+       
         <div class="nav">
             <img src="/icons/square.png" class="menu">
             <img src="/icons/new logo.png" class="logo">
@@ -25,14 +31,14 @@
             <button class="btn"><a href="/pages/about.html"class="txt">about</a> </button>
         </div>
 
-        <!-- contact -->
-        <section id="contact">
-            <div class="contact-container container">
+        
+        <section id="contact"
+            <div class="contact-container container"
                 <div class="contact-img">
                     <img src="/images/demon.png" alt="" />
                 </div>
     
-                <div class="form-container">
+                <div class="form-container"
                     <h1>Contact Us</h1>
                     <input type="text" placeholder="Your Name" />
                     <input type="email" placeholder="E-Mail" />
@@ -41,8 +47,117 @@
                 </div>
             </div>
         </section>
-    </div>
+    </div> -->
+
     
+        
+        <!-- ----------navigation bar--------- -->
+	<section class="navigation-bar">
+		<div class="navbar">
+			<div class="nav-logo">
+				<a href="/index.html"><img src="\images\nav-logo.webp" alt=""></a>
+			</div>
+			<div class="nav-links">
+				<ul>
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/pages/about.html">About</a></li>
+					
+					<div class="dropdown">
+						<button class="dropbtn">Categories</button>
+						<div class="dropdown-content">
+                            <a href="/pages/categories.html">Categories</a>
+							<a href="/pages/anime-details.html">Anime Details</a>
+							<a href="">Login</a>
+							<a href="/pages/signup.html">Signup</a>
+							
+						</div>
+					</div>
+					
+					<li><a href="/pages/blog.html">Blog</a></li>
+					<li><a href="/pages/contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="nav-user">
+				
+				<i class="fa-solid fa-heart"></i>
+				<a href="/pages/signup.html"><i class="fa-solid fa-user"></i></a>
+			</div>
+		</div>
+	</section>
+    <div class="container">
+        <div class="map">
+          <!-- Your map embed code or image here -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.5909749986525!2d-0.12796858477485753!3d51.507302379475455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ebe2f26d8d%3A0x20f3d7a27f7d0f28!2sBig%20Ben!5e0!3m2!1sen!2suk!4v1644276244819!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="contact-us">
+            <h1>Contact Us</h1>
+            <br><br>
+            <p>Email: anime@anime.com</p><br><br>
+            <p>Phone: +1234567890</p><br><br>
+            <p>Address: 123 Road to code, Pune, India</p><br><br>
+          </div>
+          <div class="leave-a-reply">
+            <h1>Leave a Reply</h1>
+            <form>
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email">
+              <textarea placeholder="Your message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+       
+    </div>
+
+    <!-- ---------footer--------- -->
+ <section class="footer">
+    <div class="footer-main">
+        <div class="footer-logo">
+            <div class="footer-image">
+                <img src="\images\nav-logo.webp" alt="">
+                
+            </div>
+            <p class="footer-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo. Morbi id dictum quam, ut commodo.</p>
+        </div>
+        <div class="quick-links">
+            <p class="links">Quick Links</p>
+            <div class="border-left"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Categories</li>
+                <li>Blog</li>
+            </ul>
+        </div>
+        <div class="quick-links">
+            <p class="links">Services</p>
+            <div class="border-left"></div>
+            <ul>
+                <li> Tv serials</li>
+                <li>
+                    Shows</li>
+                <li>Movies</li>
+                <li> Web Series</li>
+            </ul>
+        </div>
+        <div class="quick-links">
+            <p class="links">Contact Us</p>
+            
+                <div class="social-icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="made">Made With Love <span><i class="fa-solid fa-heart"></i></span>
+        By Passionate Team
+    </p>
+    <p class="copyright">Copyright © Anime 2024</p>
+</section>
+     
 </body>
 
 </html>
