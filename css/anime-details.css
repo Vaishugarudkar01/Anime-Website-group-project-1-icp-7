@@ -192,6 +192,8 @@
 .footer-text{
     margin-top: 10px;
     width: 240px;
+    line-height: 30px;
+    text-align: justify;
     font-size: 18px;
 }
 
