@@ -22,7 +22,19 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     border-bottom: 1px solid #b7b7b7;
 }
 
+.hamburger-menu i{
+    color: #fff;
+    font-size: 25px;
+    border: 1px solid #fff;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: absolute;
+    /* right: 5px; */
+}
+
 .navbar {
+	position: relative;
 	margin: 5px 70px;
 	display: flex;
 	justify-content: space-between;
@@ -114,21 +126,20 @@ a {
 
 /* --------------navigation code ends here----------- */
 
-@media only screen and (max-width: 768px) {
-    .navbar {
-        margin: 5px 20px; /* Adjust margin for smaller screens */
-    }
-    
-    .nav-links ul {
-        margin: 10px 0; /* Adjust margin for smaller screens */
-        flex-direction: column; /* Stack items vertically */
-    }
-    
-    .nav-links ul li a {
-        margin: 10px 0; /* Adjust margin for smaller screens */
-    }
-    
-    .nav-user i {
-        margin: 10px 0; /* Adjust margin for smaller screens */
-    }
+@media screen and (max-width:768px) {
+	.hamburger-menu{
+		visibility: visible;
+	}
+	.nav-links{
+		display: none;
+	}
+	.nav-user{
+		display: none;
+	}
+	
+}
+@media screen and (min-width:768px) {
+	.hamburger-menu{
+		visibility: hidden;
+	}
 }
