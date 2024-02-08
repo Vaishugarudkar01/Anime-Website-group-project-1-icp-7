@@ -10,6 +10,7 @@
     text-align: right;
     color: white;
     background-image: url('../images/background.jpg');
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -72,11 +73,14 @@
   }
   .watchnow1{
     padding: 7px 30px;
-    border-radius: 20px;
+    border-radius: 15px;
     /* background-color: #FFBB64; */
     background-color:#e53637;
     border: 20px;
     border-color: white;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
     display: flexbox; 
     align-items: center;
     margin: 100px 10px 50px 0px;
@@ -84,20 +88,23 @@
   }
   .watchnow2{
     padding: 7px 30px;
-    border-radius: 20px;
+    border-radius: 15px;
     /* background-color: #FFBB64; */
     background-color:#e53637;
     border: 20px;
     border-color: white;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
     display: flexbox; 
     align-items: center;
     margin: 100px 120px 50px 50px;
   }
   .watchnow1:hover{
-    background-color: lightskyblue;
+    background-color: #070720;
   }
   .watchnow2:hover{
-    background-color: lightskyblue;
+    background-color: #070720;
   }
 
   .trending{
@@ -126,6 +133,9 @@
     padding-top: 15px;
 
 
+  }
+  .car{
+    height: 100%;
   }
   .car:hover{
     box-shadow: 0 18px 18px grey;
@@ -255,3 +265,4 @@
   .social-icons img{
     height: 30px;
   }
+  
