@@ -113,3 +113,22 @@ a {
 }
 
 /* --------------navigation code ends here----------- */
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        margin: 5px 20px; /* Adjust margin for smaller screens */
+    }
+    
+    .nav-links ul {
+        margin: 10px 0; /* Adjust margin for smaller screens */
+        flex-direction: column; /* Stack items vertically */
+    }
+    
+    .nav-links ul li a {
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+    
+    .nav-user i {
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+}
