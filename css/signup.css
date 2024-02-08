@@ -10,8 +10,13 @@ body {
     right: 100px;
     width: 450px;
     height: 450px;
-    background-color: rgba(57, 62, 70, 0.7);
+    background-color: rgba(57, 62, 70, 1);
     border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    margin-left: -15%;
+    position: fixed;
+    margin-top: -15%;
 }
 
 
@@ -100,4 +105,9 @@ input[type=password] {
 
     height: 1500px;
     width: 100%;
+    background-image: url('../images/background.jpg');
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
