@@ -10,6 +10,7 @@
     text-align: right;
     color: white;
     background-image: url('../images/background.jpg');
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -126,6 +127,9 @@
     padding-top: 15px;
 
 
+  }
+  .car{
+    height: 100%;
   }
   .car:hover{
     box-shadow: 0 18px 18px grey;
@@ -255,3 +259,4 @@
   .social-icons img{
     height: 30px;
   }
+  

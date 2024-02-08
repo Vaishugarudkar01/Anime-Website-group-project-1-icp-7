@@ -114,6 +114,7 @@ a {
 
 /* --------------navigation code ends here----------- */
 
+
 @media only screen and (max-width: 768px) {
     .navbar {
         margin: 5px 20px; /* Adjust margin for smaller screens */
@@ -132,3 +133,4 @@ a {
         margin: 10px 0; /* Adjust margin for smaller screens */
     }
 }
+
