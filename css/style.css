@@ -127,28 +127,7 @@ a {
 
 /* --------------navigation code ends here----------- */
 
-<<<<<<< HEAD
 
-@media only screen and (max-width: 768px) {
-    .navbar {
-        margin: 5px 20px; /* Adjust margin for smaller screens */
-    }
-    
-    .nav-links ul {
-        margin: 10px 0; /* Adjust margin for smaller screens */
-        flex-direction: column; /* Stack items vertically */
-    }
-    
-    .nav-links ul li a {
-        margin: 10px 0; /* Adjust margin for smaller screens */
-    }
-    
-    .nav-user i {
-        margin: 10px 0; /* Adjust margin for smaller screens */
-    }
-}
-
-=======
 @media screen and (max-width:768px) {
 	.hamburger-menu{
 		visibility: visible;
@@ -169,4 +148,4 @@ a {
 		visibility: hidden;
 	}
 }
->>>>>>> 78aeda8a22206ded3c1ed593c2d7ef302d5864cf
+
