@@ -15,6 +15,7 @@ body {
 .container-2{
   display: flex;
   flex-wrap: wrap;
+  margin: 5px 80px;
 }
 
 
@@ -50,15 +51,16 @@ body {
 }
 
 .leave-a-reply button {
-  background-color: #4caf50;
+  background-color: #e53637;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
 }
 
-.leave-a-reply button:hover {
-  background-color: #45a049;
-}
+
 
 
