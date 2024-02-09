@@ -77,7 +77,10 @@
     font-size: 17px;
     line-height: 25px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
+
   
 }
 .box img{
