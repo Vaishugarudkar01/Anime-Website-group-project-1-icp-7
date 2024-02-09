@@ -347,7 +347,116 @@ margin-top: 20px;
 }
 
 
-@media screen and (max-width:768px){
+/*homepage responsive code phone*/
+@media only screen and (max-width: 480px){
+ 
+ 
+
+  .body{
+    width:425px;
+  }
+  .container{
+    width: 425px;
+    height: 260px;
+  }
+  .info{
+    text-align: left;
+  }
+  .top-image{
+    width: 425px;
+  }
+ 
+
+  .container-info{
+    transform: scale(0.5);
+    margin: 10px;
+    padding: 10px;
+  
+    width: 500px;
+    height: 350px;
+    margin-right: 5px;
+    position: absolute;
+    top: 1%;
+    zoom: 80%;
+    font-weight: 100;
+
+    
+
+  }
+  .rank{
+    text-align: left;
+    padding-left:60px ;
+  }
+  .heading{
+    text-align: left;
+    padding-left:60px ;
+  }
+  .car{
+    height: 50%;
+    justify-content: space-evenly;
+
+  }
+
+  .trending{
+    justify-content: space-around;
+    zoom: 0.27;
+    padding: 20px;
+  }
+  .box{
+    flex-direction: column;
+    width: 100%;
+    padding-top: 5px;
+    margin: 2px;
+    width: 100%;
+  }
+  .t1{
+    font-size: medium;
+    margin-left: 20px;
+  }
+  
+  .tst{
+    width: 200px;
+  }
+  .block{
+    zoom: 1.2;
+    margin-bottom: 15px;
+    border-top: 2px solid white;
+    margin-top: 10px;
+    width: 100%;
+    padding-right: 30px;
+    margin-left: 10px;
+    height: 715px;
+  }
+  .text{
+    width: 25%;
+  }
+  .content{
+    width: 100%;
+    font-size: 65%;
+  }
+  .green{
+    width: 70px;
+    height: 20px;
+    margin-left: 25px;
+    padding: 3px;
+
+
+  }
+  .pink{
+    width: 70px;
+    height: 20px;
+    margin-left: 5px;
+    padding: 3px;
+  }
+  .tv{
+    margin-left: 10px;
+
+  }
+}
+
+
+/*
+@media only screen and (max-width: 768px){
  
  
 
@@ -399,9 +508,6 @@ margin-top: 20px;
     width: 35%;
   }
 }
-
-
-
 /*FOOTER RESPONSIVE CODE*/
 @media screen and (max-width:768px) {
 	.anime-details{
