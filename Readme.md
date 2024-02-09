@@ -15,16 +15,18 @@ website is available here
 
 # screenshots
 ### homepge
-![alt text](image-1.png)
+![alt text](/readme-SS/Screenshot%202024-02-09%20134750.png)
 
 ### Details Page
-![alt text](image.png)
+![alt text](/readme-SS/Screenshot%202024-02-09%20134604.png)
 
 ### categories
-![alt text](image-2.png)
+![alt text](/readme-SS/Screenshot%202024-02-09%20134917.png)
 
 ### contact Page
-![alt text](image-3.png))
+![alt text](/readme-SS/Screenshot%202024-02-09%20135204.png)
+
+
 
 
 
