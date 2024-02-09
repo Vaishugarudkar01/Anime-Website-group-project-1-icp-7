@@ -28,7 +28,7 @@ website is available here
 
 
 ## 🚀 About Tean
-We are full stack developer...
+We are full stack developers...
 
 
 
