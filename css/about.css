@@ -31,6 +31,8 @@
     font-size: 17px;
     line-height: 25px;
     text-align: center;
+    margin-left: 13px;
+    margin-right: 13px;
 }
 .vission{
     width: 100%;
@@ -76,6 +78,7 @@
     line-height: 25px;
     text-align: center;
     margin-top: 20px;
+  
 }
 .box img{
     height: 80px;
@@ -150,6 +153,15 @@
 @media(min-width:1369px){
     .box{
     margin-left: 60px;
+    }
+}
+@media (min-width:1400px){
+    .box{
+        margin-left: 80px;
+    }
+
+    .div4{
+        margin-right: 10px;
     }
 }
 @media (min-width:1400px){
