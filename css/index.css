@@ -168,7 +168,8 @@ flex-direction: row;
 .box{
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  padding-bottom: 80px;
   justify-content: space-evenly;
   margin-top: 20px;
 
