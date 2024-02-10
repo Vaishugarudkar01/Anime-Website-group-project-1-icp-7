@@ -28,7 +28,7 @@ I was wondering how to find the best Animes based on my favorite Animes, and I'm
 ![alt text](/readme-SS/Screenshot%202024-02-09%20135204.png)
 
 
-## 🚀 About Tean
+## 🚀 About Team
 We are full stack developers...
 
 
