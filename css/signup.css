@@ -79,14 +79,7 @@ input[type=password] {
     font-size: 20px;
 }
 
-.login-btn:hover {
 
-    -ms-transform: scale(1.1); /* IE 9 */
-   / -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
-    transition: 0.5s;
-
-}
 
 .reg {
     margin-left: 135px;
