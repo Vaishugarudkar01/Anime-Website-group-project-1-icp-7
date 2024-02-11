@@ -41,6 +41,10 @@ body {
     margin: 25px 15px;
     border: 1px solid #070720;
 }
+.login-left button:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+}
 .login-left button a{
     color: #fff;
 }

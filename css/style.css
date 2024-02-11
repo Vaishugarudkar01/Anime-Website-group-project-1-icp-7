@@ -1,14 +1,19 @@
 /* background color:#070720;
 button color:#e53637;
 paragragh text color:#b7b7b7;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+font-family: 'Rubik', sans-serif;*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 *{
+	
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Rubik', sans-serif;
+
+  
 }
 
 .navigation-bar {

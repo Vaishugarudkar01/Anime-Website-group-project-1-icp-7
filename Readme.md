@@ -10,8 +10,9 @@
 ## Summary Of the Project
 I was wondering how to find the best Animes based on my favorite Animes, and I'm not sure where to find. Then I thought, "Why not create one myself?" That's basically the motivation for this project.
 
-## Website And Demo
-website is available here 
+### this website is available here
+
+[watch-animes.netlify.app/](watch-animes.netlify.app/)
 
 # screenshots
 ### homepge
@@ -27,7 +28,7 @@ website is available here
 ![alt text](/readme-SS/Screenshot%202024-02-09%20135204.png)
 
 
-## 🚀 About Tean
+## 🚀 About Team
 We are full stack developers...
 
 

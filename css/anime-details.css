@@ -79,6 +79,10 @@
     margin: 20px 5px;
     border: 1px solid #070720;
 }
+.btn-details button:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+}
 
 .btn-details button a {
     text-decoration: none;
