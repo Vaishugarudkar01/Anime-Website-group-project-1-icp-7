@@ -14,31 +14,41 @@ body{
     display: table;
     clear: both;
 }
-header{
-   /* background-color: #404040;*/
-    padding: 3px;
+header{background-image: url(https://i.pinimg.com/736x/c3/96/42/c39642f1722aaeb196bad964481d9001.jpg);
+    padding: 120px;
+   /* background-image: url(https://images.wallpapersden.com/image/download/anime-original-hd-2023_bW5raG2UmZqaraWkpJRoamVlrWZtbWo.jpg);*/
+    height: 500px ;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 header h1{
     text-align: center;
     font-size: 60px;
-    color:red;
+    color:white;
     margin: 1.2 0px;
     padding-top:40px ;
     padding-bottom: 0px;
 }
+header h4{
+    color:white ;
+    font-size: 30px;
+}
 h2{
     color: white;
     margin:1.5 0px;
-    
+
 }
 h3{
     color: white;
+    
 }
 h5{
     color: white;
+    
 }
 p{
     color: white;
+    margin-top: 50px;
 }
 .left-column{
     
@@ -62,15 +72,17 @@ p{
     padding: 20px;
     background-color:#070720;
    /*background-color: #686767;*/
-;
-    margin-top: 20px;
+
+    margin-top: 10px;
 }
 .card img{
     width: 100%;
+    
 
 }
 .right-column.card img{
    margin-bottom: 20px;
+   
 }
 footer{
   /*  background-color: #dddddd;
@@ -169,3 +181,59 @@ margin-right: 20px;
 font-size: 25px;
 }
 /*end of footer*/
+
+/*-----responsive code------*/
+@media screen and (max-width:768px){
+    .row{
+        display:ruby-base-container;
+    }
+    .left-column{
+        width: 100%;
+        object-fit: cover;
+        height: 300px;
+    }
+    .right-column{
+        width: 100%;
+        object-fit: cover;
+        height: 300px;
+        display: none;
+    }
+    
+    .card{
+        width: 70%;
+        font-size: 20px;
+    }
+    .card img{
+        width: 100%;
+        object-fit: cover;
+        height: 300px;
+    }
+    .card h2{
+        margin-top: 15px;
+        width: 100%;
+        font-size: 25px;
+    }
+    .card h3{
+        margin-top: 15px;
+        width: 100%;
+        font-size: 25px;
+    }
+    .card h5{
+        margin-top: 15px;
+        width: 100%;
+        font-size: 25px;
+    }
+    .card p{
+        width: 80%;
+        font-size: 18px;
+    }
+   /* .right-column{
+        width: 100%;
+        object-fit: cover;
+        height: 300px;
+    } */
+    .footer{
+        display:none;
+    }
+
+}
