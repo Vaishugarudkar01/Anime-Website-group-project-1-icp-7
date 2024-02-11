@@ -76,7 +76,7 @@
     font-size: x-large;
     color: #e53637;
     text-align: left;
-    margin:30px 30px 20px 40px ;
+    margin:30px 30px 20px 90px ;
     display: flex;
     flex-direction: row;
   }
@@ -107,8 +107,7 @@
     font-size: xxx-large;
     color: goldenrod;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: -100px;
+    padding-top: 100px;
   }
 
 
@@ -271,8 +270,52 @@
 
 }
 
+@media only screen and (max-width:426px){
+  .body{
+    width: 425px;
+  }
+.pagetitle {
+  font-size: xx-large;
+  color: goldenrod;
+  text-align: left;
+  margin-top: -15px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+  padding-left: 45px;
+  text-align: left;
+}
+.t1{
+  margin-top: 20px;
+  margin-left: 45px;
+  text-align: center;
+}
+.trending{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+.car{
+  transform: scale(1.5);
+  padding: 7%;
+  display: flex;
+  position: relative;
+  left: 2px;
+  
+}
+.car:hover{
+  box-shadow: none;
+}
+.txt1{
+  font-size: larger;
+  margin-bottom: 10px;
+  padding: 20px;
+  
+}
 
 
+}
 @media screen and (max-width:768px) {
 	.anime-details{
         display: block;

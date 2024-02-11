@@ -43,7 +43,7 @@ flex-direction: row;
   bottom: 8px;
   left: 16px;
   padding: 50px;
-  width:600px;
+  width:650px;
 
 }
 .rank{
@@ -72,7 +72,7 @@ flex-direction: row;
   color: white; 
 }
 .watchnow1{
-  padding: 7px 30px;
+  padding: 10px 10px;
   border-radius: 15px;
   /* background-color: #FFBB64; */
   background-color:#e53637;
@@ -83,11 +83,11 @@ flex-direction: row;
   font-size: 18px;
   display: flexbox; 
   align-items: center;
-  margin: 100px 10px 50px 10px;
+  margin: 100px 30px 50px 10px;
 
 }
 .watchnow2{
-  padding: 7px 30px;
+  padding: 7px 24px;
   border-radius: 15px;
   /* background-color: #FFBB64; */
   background-color:#e53637;
@@ -366,32 +366,42 @@ margin-top: 20px;
   .top-image{
     width: 425px;
   }
+  .main {
+    position: relative;
+    left: -275px;
+    top: -20px;
+    zoom: 60%;
+    transform: scale(0.6);
+}
  
 
-  .container-info{
+  .container-info {
     transform: scale(0.5);
-    margin: 10px;
-    padding: 10px;
-  
+    margin: 1px;
+    padding: 1px;
     width: 500px;
-    height: 350px;
-    margin-right: 5px;
+    height: 300px;
+    margin-right: 6px;
     position: absolute;
-    top: 1%;
-    zoom: 80%;
+    top: 32%;
+    zoom: 70%;
     font-weight: 100;
-
-    
-
-  }
-  .rank{
+    left: -65px;
+}
+.rank {
+  text-align: left;
+  padding-left: 60px;
+  position: relative;
+  top: 70px;
+  left: -8px;
+}
+  .heading {
     text-align: left;
-    padding-left:60px ;
-  }
-  .heading{
-    text-align: left;
-    padding-left:60px ;
-  }
+    padding-left: 60px;
+    top: 55px;
+    position: relative;
+    left: -11px;
+}
   .car{
     height: 50%;
     justify-content: space-evenly;
@@ -435,6 +445,34 @@ margin-top: 20px;
     width: 100%;
     font-size: 65%;
   }
+  .watchnow1 {
+    top: -44px;
+    left: -33px;
+    position: relative;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: #e53637;
+    border: 20px;
+    border-color: white;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 100px 30px 50px 10px;
+}
+.watchnow2 {
+    padding: 7px 24px;
+    border-radius: 15px;
+    background-color: #e53637;
+    border: 20px;
+    border-color: white;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 100px 120px 50px 50px;
+    top: -42px;
+    left: -105px;
+    position: relative;
+}
   .green{
     width: 70px;
     height: 20px;
