@@ -35,6 +35,7 @@ body {
 .leave-a-reply {
   background-color: #f9f9f9;
   padding: 20px;
+  border-radius: 15px;
 }
 
 .leave-a-reply form {

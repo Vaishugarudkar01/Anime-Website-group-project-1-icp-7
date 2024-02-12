@@ -69,14 +69,18 @@ font-family: 'Rubik', sans-serif;*/
 }
 
 .nav-links ul li a:hover {
-	/* color: #e53637; */
+
 	background-color: #e53637;
-	/* padding: 10px  20px; */
+	
 	padding: 5px 10px;
 	transition: 0.5s;
 	border-radius: 5px;
 	color: #fff;
     transition: 0.5s;
+	/* border-bottom: 5px solid #e53637;
+	padding-bottom: 5px;
+	transition: 0.5s;
+	border-radius: 2px; */
 
 }
 
