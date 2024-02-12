@@ -163,3 +163,8 @@ a {
 	}
 }
 
+.border-left{
+    width: 45px;
+    margin-top: 3px;
+    border-bottom: 5px solid #e53637;
+}
