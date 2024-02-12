@@ -9,16 +9,22 @@ body{
 }
 
 /*.......end of navigation bar......*/
-.row::after{
+/* .row::after{
     content: '';
     display: table;
     clear: both;
-}
-header{background-image: url(https://i.pinimg.com/736x/c3/96/42/c39642f1722aaeb196bad964481d9001.jpg);
-    padding: 120px;
+} */
+/* header
+    {
+    opacity: 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("/images/blogbg.jpg");
+    background-repeat: no-repeat;
+    width: 1800px;
+    padding: 120px; */
    /* background-image: url(https://images.wallpapersden.com/image/download/anime-original-hd-2023_bW5raG2UmZqaraWkpJRoamVlrWZtbWo.jpg);*/
-    height: 500px ;
-    margin-left: 90px;
+    /* height: 500px ; */
+    /* margin-left: 90px;
     margin-right: 90px;
 }
 header h1{
@@ -73,7 +79,7 @@ p{
     background-color:#070720;
    /*background-color: #686767;*/
 
-    margin-top: 10px;
+    /* margin-top: 10px;
 }
 .card img{
     width: 100%;
@@ -83,8 +89,8 @@ p{
 .right-column.card img{
    margin-bottom: 20px;
    
-}
-footer{
+} */
+footer{ */
   /*  background-color: #dddddd;
     padding: 20px;
     text-align: center;
@@ -236,4 +242,111 @@ font-size: 25px;
         display:none;
     }
 
+}
+
+
+
+
+
+/* -------------blog page new code-------------- */
+
+.blog-image img{
+    filter: brightness(40%);
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    display: flex;
+
+}
+.blog-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-image{
+    position: relative;
+}
+.blog-image h1{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 70px;
+}
+.blog-image p{
+    position: absolute;
+    left: 32%;
+    top:62%;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.product-card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 70px;
+}
+
+.product-card{
+    /* height: 300px; */
+    width: 350px;
+    margin: 20px;
+    border: 1px solid #A6A6A6;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.product-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.product-details{
+    margin: 15px 15px;
+    line-height: 25px;
+}
+
+.product-details h1 {
+ color: #fff;
+    font-size: 25px;
+    
+}
+.product-details i{
+    color: #ffa534;
+    margin: 0 2px;
+    font-size: 20px;
+}
+.product-details h3{
+    font-size: 19px;
+  color: #fff;
+  margin: 15px 0;
+}
+.product-details p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #8e8f8f;
+    margin-bottom: 10px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    border-style: none;
+    background-color:#008000;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    
+}
+.blog-heading h1{
+    text-align: center;
+    font-size: 50px;
+    color: #ffff;
+   margin-top: 40px;
 }
