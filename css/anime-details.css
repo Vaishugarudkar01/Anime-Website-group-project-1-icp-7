@@ -331,6 +331,10 @@
     .footer-logo{
         display: none;
     }
+    /* .footer-main{
+        display: block;
+        width: 100%;
+    } */
     .quick-links p{
         font-size: 18px;
     }
