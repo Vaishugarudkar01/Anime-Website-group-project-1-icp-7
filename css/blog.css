@@ -251,8 +251,8 @@ font-size: 25px;
 /* -------------blog page new code-------------- */
 
 .blog-image img{
-    filter: brightness(40%);
-    width: 1200px;
+    filter: brightness(50%);
+    width: 1300px;
     height: 500px;
     object-fit: cover;
     display: flex;

@@ -226,7 +226,13 @@
 .quick-links ul{
     margin-top: 15px;
 }
+.quick-links ul li a{
+    color: #ffff;
+    font-size: 16px;
+    line-height: 35px;
+}
 .quick-links ul li{
+    color: #ffff;
     font-size: 16px;
     line-height: 35px;
 }
